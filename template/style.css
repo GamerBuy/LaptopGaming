@@ -1,0 +1,470 @@
+/* start hà */
+.card>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.hidden-text-1-line{
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+
+}
+.hidden-text-2-line{
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #F2B705;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #bbb;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #F2B705;
+}
+.banner{
+    width: 100%;
+    min-height: 350px;
+    background-color: #F2B705;
+}
+.banner2{
+    width: 100%;
+    min-height: 350px;
+}
+.banner>h2,p{
+    text-align: justify;
+}
+.banner2>h2,p{
+    text-align: justify;
+}
+.container-banner{
+    background-color: #F2B705;
+}
+.btn-banner{
+    width: 8rem;
+    border-radius: 15px;
+    color: #B88A01;
+    
+}
+.btn-banner:hover{
+    background-color: #B88A01;
+    color: white;
+    
+}
+.testimonial{
+    border-radius: .7rem;
+    min-height: 320px;
+}
+.hidden-text{
+    overflow: hidden;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+}
+.hidden-text-justify{
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+.count-shoppingcart{
+    width: 1px;
+    height: 10px;
+    border-radius: 50%;
+}
+/* product */
+.product-hidden-text{
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+}
+.active-warning{
+    background-color: #F2B705 !important;
+    border-color: #F2B705 !important;
+}
+/*cart*/
+.w-5{
+    width: 5%;
+}
+.w-10{
+    width: 10%;
+}
+.w-15{
+    width: 15%;
+}
+.w-20{
+    width: 20%;
+}
+.w-30{
+    width: 30%;
+}
+.w-33{
+    width: 33%;
+}
+.w-35{
+    width: 40%;
+}
+.cart-hidden-text{
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    text-align: justify;
+}
+.cart{
+    border-collapse: separate;
+    border-spacing: 0 10px;
+}
+.bg-cart-body{
+    background-color: #FFDF80;
+}
+.bg-cart-body > td{
+    background-color: #FFDF80;
+
+}
+.radius-right-top-bottom{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.radius-left-top-bottom{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.slick-prev {
+    position: absolute;
+    top: 50%;
+    left : -2.1%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 100%;
+    font-size: 30px;
+    border: none;
+    z-index: 2;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0); /* Màu nền trong suốt */
+    border: none; /* Loại bỏ đường viền */
+    color: #F2B705; /* Màu chữ */
+    text-decoration: none; /* Loại bỏ đường gạch chân mặc định cho các liên kết */
+    cursor: pointer; /* Hiển thị con trỏ tương ứng với việc nhấp chuột */
+}
+.slick-next {
+    position: absolute;
+    top: 50%;
+    right: -2.1%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 100%;
+    font-size: 30px;
+    z-index: 2;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0); /* Màu nền trong suốt */
+    border: none; /* Loại bỏ đường viền */
+    color: #F2B705; /* Màu chữ */
+    text-decoration: none; /* Loại bỏ đường gạch chân mặc định cho các liên kết */
+    cursor: pointer; /* Hiển thị con trỏ tương ứng với việc nhấp chuột */
+}
+.images>.slick-prev {
+    position: absolute;
+    top: 50%;
+    left : -5%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 100%;
+    font-size: 30px;
+    border: none;
+    z-index: 2;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0); /* Màu nền trong suốt */
+    border: none; /* Loại bỏ đường viền */
+    color: #F2B705; /* Màu chữ */
+    text-decoration: none; /* Loại bỏ đường gạch chân mặc định cho các liên kết */
+    cursor: pointer; /* Hiển thị con trỏ tương ứng với việc nhấp chuột */
+}
+.images{
+    .slick-next {
+        position: absolute;
+        top: 50%;
+        right: -3%;
+        transform: translateY(-50%);
+        width: 50px;
+        height: 100%;
+        font-size: 30px;
+        z-index: 2;
+        padding: 10px 20px;
+        background-color: rgba(0, 0, 0, 0); /* Màu nền trong suốt */
+        border: none; /* Loại bỏ đường viền */
+        color: #F2B705; /* Màu chữ */
+        text-decoration: none; /* Loại bỏ đường gạch chân mặc định cho các liên kết */
+        cursor: pointer; /* Hiển thị con trỏ tương ứng với việc nhấp chuột */
+    }
+}
+.display-none{
+    display: none;
+}
+.form-check-input:checked{
+    background-color: #F2B705;
+    border: none;
+}
+.shadow-right-bottom{
+    box-shadow:  1px 1px 5px #f8d467;
+}
+.bg-yellow-light{
+    background-color: #FFDF80;
+}
+.active-pay{
+    border: 2px solid #F2B705  !important;
+}
+.customer-review{
+    overflow: hidden;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    text-align: justify;
+}
+.expand-btn{
+    appearance: none;
+    border: 1px solid black;
+    padding: .5em;
+    border-radius: .25em;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.expand-btn:hover{
+    background-color: #ccc;
+}
+.expand-btn::before{
+    content: 'Xem thêm';
+}
+.expand-btn:checked::before{
+    content: 'Thu gọn';
+}
+
+.customer-review:has(+ .expand-btn:checked){
+    -webkit-line-clamp: 1000000;
+}
+.rating {
+    font-size: 24px;
+}
+
+.star {
+    color: #ccc;
+    cursor: pointer;
+}
+
+.star.active {
+    color: gold;
+}
+.expand-btn-review{
+    appearance: none;
+    border: 1px solid black;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #F2B705;
+}
+.expand-btn-review::before{
+    content: 'Xem thêm';
+}
+.expand-btn-review:checked::before{
+    content: 'Thu gọn';
+}
+.customer-review-detail{
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    text-align: justify;
+}
+.customer-review-detail:has(+ .expand-btn-review:checked){
+    -webkit-line-clamp: 1000000;
+}
+.customer-review-container{
+    min-height: 10px;
+}
+.description-product{
+    min-height: 10px;
+}
+.description-product-p{
+    overflow: hidden;
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    text-align: justify;
+}
+.expand-btn-description{
+    appearance: none;
+    border: 1px solid black;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #F2B705;
+}
+.expand-btn-description::before{
+    content: 'Xem thêm';
+}
+.expand-btn-description:checked::before{
+    content: 'Thu gọn';
+}
+.description-product-p:has(+ .expand-btn-description:checked){
+    -webkit-line-clamp: 1000000;
+}
+.card-animation:hover{
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out; 
+}
+.pointer{
+    cursor: pointer;
+}
+/* end hà */
+/* start chiến */
+.search-box{
+    background-color: #fff;
+}
+.search-box .search-text{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 14px;
+    width: 0;
+    padding: 10px;
+}
+.search-box:hover .search-text{
+    width: 200px;
+    padding: 10;
+    box-shadow: 1px 1px #F2B705;
+    border: 1px solid #F2B705;
+    border-radius: 30px;
+    transition: all 0.30s ease-in-out;
+}
+.search-box:hover .search-btn{
+display: none;
+}
+.search-btn{
+    background-color: #fff;
+    border: none;
+    font-size: 15px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.btn-1 {
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #F2B705;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 10px;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 80%;
+    will-change: transform;
+}
+
+.btn-1:disabled {
+    pointer-events: none;
+}
+
+.btn-1:hover {
+    color: #fff;
+    background-color: #F2B705;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+.btn-1:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+/* end chiến */
+/* start minh */
+.btn-1-minh {
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #F2B705;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 10px;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 80%;
+    will-change: transform;
+}
+
+.btn-1-minh:disabled {
+    pointer-events: none;
+}
+
+.btn-1-minh:hover {
+    color: #fff;
+    background-color: #F2B705;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+.btn-1-minh:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+/* end minh */

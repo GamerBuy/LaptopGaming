@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop Pro</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cc03047fef.js" crossorigin="anonymous"></script>
+</head>
+<body class="container">
+    <!-- start nav -->
+<div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">    
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">LapTopPro</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="home.html">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="product.html">Sản phẩm</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Thương hiệu
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Thông tin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Liên hệ</a>
+                    </li>
+                        
+                </ul>
+                    <div class="d-flex">
+                        <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+                        <i class="fa-solid fa-bag-shopping fa-xl mx-3 position-relative"><div class="position-absolute top-100 start-100 translate-middle"><span class="position-relative badge border border-light rounded-circle bg-warning p-2"><small class="position-absolute top-50 start-50 translate-middle" style="font-size: 10px;">0</small></span></div></i>
+                        <i class="fa-solid fa-circle-user fa-xl"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+</div>
+    <div class="col-md-1"></div>
+</div>
+    <!-- end nav -->
+    <!-- start content -->
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+            <h1 class="mt-5 mb-4">Thanh toán</h1>
+            <div class="row">
+                <div class="col-sm-5 mt-2">
+                    <div class="row  border border-warning border-1 shadow-right-bottom">
+                        <h3 class="text-center">Thông tin đơn hàng</h3>
+                        <strong>Mã đơn hàng:</strong>
+                        <p>4ac94121fa37428b988f7ee39756b51d</p>
+                        <strong>Mã đơn hàng:</strong>
+                        <p>Mô tả 1</p>
+                        <strong>Số tiền:</strong>
+                        <p>10.000.000đ</p>
+                    </div>
+                    <div class="row border mt-2 bg-yellow-light" style="width: 80%; margin-left: 10%; margin-right: 10%;">
+                        <h5 class="text-center fw-bold" style="color: #D9A507;">Đơn hàng sẽ hết hạn sau:</h5>
+                        <div class="d-flex justify-content-center mt-2">
+                            <p class="me-2 px-3 py-3" style="border: 2px solid #F2B705; border-radius: 10px;">20 phút</p>
+                            <p class=" px-3 py-3" style="border: 2px solid #F2B705; border-radius: 10px;">00 giây</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-6 mt-2">
+                    <div class="row border border-warning border-1 shadow-right-bottom">
+                        <h3 class="text-center mb-4">Nhập thông tin để thanh toán</h3>
+                        <div class="row mb-2">
+                            <div class="border border-secondary rounded mx-2 active-pay" style="width:70px"><img src="../upload/icon/napas.png" alt="" class="rounded-3" style="width:100%"></div>
+                            <div class="border border-secondary rounded mx-2" style="width:70px"><img src="../upload/icon/visa.png" alt="" class="rounded-3" style="width:100%"></div>
+                            <div class="border border-secondary rounded mx-2" style="width:70px"><img src="../upload/icon/masterremovebg-preview.png" alt="" class="rounded-3 pt-2" style="width:100%"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <label for="exampleFormControlInput1" class="form-label">Số thẻ:</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nhập số thẻ">
+                            </div>
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-5">
+                                <label for="exampleFormControlInput1" class="form-label">Ngày phát hành:</label>
+                                <input type="date" class="form-control" id="exampleFormControlInput1">
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-sm-6">
+                                <label for="exampleFormControlInput1" class="form-label">Tên chủ thẻ:</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nhập tên chủ thẻ">
+                            </div>
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-5">
+                                <label for="exampleFormControlInput1" class="form-label">Điện thoại:</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nhập Số điện thoại">
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-warning mt-4 px-4 py-2 fw-medium">Thanh toán</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-1"></div>
+    </div>
+    <!-- end content -->
+    <!-- start footer -->
+    <footer class="mt-5">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">       
+                <div class="row">
+                <div class="col-lg-3">
+                    <div class="" style="width: 18rem;">
+                    <ul class="">
+                        <li class="list-group-item mb-2"><strong>khám phá</strong></li>
+                        <li class="list-group-item">Ứng dụng mobile</li>
+                        <li class="list-group-item">Bảo mật thông tin</li>
+                        <li class="list-group-item">Quy định</li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="" style="width: 18rem;">
+                        <ul class="">
+                            <li class="list-group-item mb-2"><strong>Công ty</strong></li>
+                            <li class="list-group-item">Giới thiệu</li>
+                            <li class="list-group-item">liên hệ</li>
+                            <li class="list-group-item">Quy chế</li>
+                        </ul>
+                        </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="" style="width: 18rem;">
+                        <ul class="">
+                            <li class="list-group-item mb-2"><strong>Tham gia trên</strong></li>
+                            <li class="list-group-item">Facebook</li>
+                            <li class="list-group-item">Instagram</li>
+                            <li class="list-group-item">Youtube</li>
+                        </ul>
+                        </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="" style="width: 18rem;">
+                        <ul class="">
+                            <li class="list-group-item mb-2"><strong>Chính sách</strong></li>
+                            <li class="list-group-item">Các câu hỏi thường gặp</li>
+                            <li class="list-group-item">Điều khoản Điều kiện</li>
+                            <li class="list-group-item">Chính sách quyền riêng tư</li>
+                        </ul>
+                        </div>
+                </div></div>
+            <div class="col-md-1"></div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col" style="margin-left: 35px;">Copyright ©2023 H.A.P</div>
+                    <div class="col text-end">
+                        follow us:
+                        <i class="fa-brands fa-facebook fa-xl" style="color: #2668d9;"></i>
+                        <i class="fa-brands fa-square-instagram fa-xl" style="color: #981ca6;"></i>
+                        <i class="fa-brands fa-youtube fa-xl" style="color: #e52a2a;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        
+    </footer>
+        <!-- end footer -->
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
